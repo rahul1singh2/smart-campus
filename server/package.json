@@ -1,0 +1,1 @@
+{"name":"campus-server","private":true,"main":"index.js","scripts":{"dev":"node --watch index.js","start":"node index.js","seed":"node -e \"require('fs').rmSync('./db/campus.db',{force:true});require('./db')\""},"dependencies":{"bcryptjs":"^2.4.3","better-sqlite3":"^13.0.3","cors":"^2.8.5","express":"^4.19.2","jsonwebtoken":"^9.0.2"}}
